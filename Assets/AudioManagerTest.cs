@@ -9,15 +9,15 @@ public class AudioManagerTest : MonoBehaviour
     {
         const float volumeDelta = 0.1f;
         if (Input.GetKeyDown(KeyCode.Alpha1))
-            AudioManagerSingleton.Instance.GlobalVolume -= volumeDelta;
+            AudioManagerSingleton.Instance.MasterVolume -= volumeDelta;
         if (Input.GetKeyDown(KeyCode.Alpha2))
-            AudioManagerSingleton.Instance.GlobalVolume += volumeDelta;
+            AudioManagerSingleton.Instance.MasterVolume += volumeDelta;
         if (Input.GetKeyDown(KeyCode.Alpha3))
             AudioManagerSingleton.Instance.Mute();
         if (Input.GetKeyDown(KeyCode.Alpha4))
             AudioManagerSingleton.Instance.UnMute();
-        if (Input.GetKeyDown(KeyCode.Alpha5))
-            AudioManagerSingleton.Instance.PlayerSFX.Play(sfxClip, 1);
+        //if (Input.GetKeyDown(KeyCode.Alpha5))
+        //    AudioManagerSingleton.Instance.PlaySfx(sfxClip, 1);
         if (Input.GetKeyDown(KeyCode.Alpha6))
             AudioManagerSingleton.Instance.Music.Play();
         if (Input.GetKeyDown(KeyCode.Alpha7))
