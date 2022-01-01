@@ -1,0 +1,3 @@
+[submodule "Assets/GTMY.Audio"]
+	path = Assets/GTMY.Audio
+	url = https://github.com/crawfis/GTMY.Audio.git
