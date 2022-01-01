@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8750227b5a0a11e44bde4067ad361c4c
+  m_SerializeEntries:
+  - m_GUID: 97882f69c14bfa04a8845c2351cd4c68
+    m_Address: Assets/Music/Track 5 - Gentle River (1min 43s).wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - music
+    m_MainAsset: {fileID: 8300000, guid: 97882f69c14bfa04a8845c2351cd4c68, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: 97882f69c14bfa04a8845c2351cd4c68, type: 3}
+  - m_GUID: 19ef10c4703165c42a4cdd4ed3e55394
+    m_Address: Assets/Music/Track 4 - The Rising Sun (3min 5s).wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - music
+    m_MainAsset: {fileID: 8300000, guid: 19ef10c4703165c42a4cdd4ed3e55394, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: 19ef10c4703165c42a4cdd4ed3e55394, type: 3}
+  - m_GUID: ef0efcd82f03506448c46b435aa39b33
+    m_Address: Assets/Music/Track 3 - On a mission (2min 33s).wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - music
+    m_MainAsset: {fileID: 8300000, guid: ef0efcd82f03506448c46b435aa39b33, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: ef0efcd82f03506448c46b435aa39b33, type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 60e08ea4c9b4acf42b26ed73f019386d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d60fadd85b3affe459e982578771d916, type: 2}
+    - {fileID: 11400000, guid: 08972f595c854e64280462cf1c7ec808, type: 2}
