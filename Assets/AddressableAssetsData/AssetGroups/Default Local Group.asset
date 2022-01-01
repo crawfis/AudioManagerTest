@@ -22,22 +22,37 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - music
-    m_MainAsset: {fileID: 8300000, guid: 97882f69c14bfa04a8845c2351cd4c68, type: 3}
-    m_TargetAsset: {fileID: 8300000, guid: 97882f69c14bfa04a8845c2351cd4c68, type: 3}
   - m_GUID: 19ef10c4703165c42a4cdd4ed3e55394
     m_Address: Assets/Music/Track 4 - The Rising Sun (3min 5s).wav
     m_ReadOnly: 0
     m_SerializedLabels:
     - music
-    m_MainAsset: {fileID: 8300000, guid: 19ef10c4703165c42a4cdd4ed3e55394, type: 3}
-    m_TargetAsset: {fileID: 8300000, guid: 19ef10c4703165c42a4cdd4ed3e55394, type: 3}
   - m_GUID: ef0efcd82f03506448c46b435aa39b33
     m_Address: Assets/Music/Track 3 - On a mission (2min 33s).wav
     m_ReadOnly: 0
     m_SerializedLabels:
     - music
-    m_MainAsset: {fileID: 8300000, guid: ef0efcd82f03506448c46b435aa39b33, type: 3}
-    m_TargetAsset: {fileID: 8300000, guid: ef0efcd82f03506448c46b435aa39b33, type: 3}
+  - m_GUID: f9884138ba961754e93508079cca0cf0
+    m_Address: Assets/Ultimate Sound FX Bundle/Sci FI Sounds Pro/Bio gun Shot/Bio
+      gun Shot 5.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sfx
+    - collision
+  - m_GUID: fee02a370e8e39140b72ece52afbe29e
+    m_Address: Assets/Ultimate Sound FX Bundle/Sci FI Sounds Pro/Bio gun Shot/Bio
+      gun Shot 3.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sfx
+    - collision
+  - m_GUID: 673f4161a47517d4cabf43f3a41a743d
+    m_Address: Assets/Total Music Collection/Big Retro Game Music Collection/Retro
+      SFX (Mixed Systems)/Bonus 3.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sfx
+    - explosion
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 60e08ea4c9b4acf42b26ed73f019386d, type: 2}
   m_SchemaSet:
