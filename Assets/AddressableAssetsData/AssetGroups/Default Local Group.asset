@@ -53,6 +53,30 @@ MonoBehaviour:
     m_SerializedLabels:
     - sfx
     - explosion
+  - m_GUID: 30cfa80f55558714f8ce01c6420a5026
+    m_Address: Assets/GunShot/AR Single Shot 2.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sfx
+    - weapon
+  - m_GUID: c8ec098f05d505941b5cebc4df85855e
+    m_Address: Assets/GunShot/AR Single Shot.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sfx
+    - weapon
+  - m_GUID: 757c2fa6d5730e14696a049f3bc2a65d
+    m_Address: Assets/GunShot/AR Single Shot (Suppressed) 2.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sfx
+    - weapon
+  - m_GUID: 56976791eaf214847bddcaf0a211d5c8
+    m_Address: Assets/GunShot/AR Single Shot 3.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sfx
+    - weapon
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 60e08ea4c9b4acf42b26ed73f019386d, type: 2}
   m_SchemaSet:

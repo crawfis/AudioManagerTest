@@ -88,6 +88,7 @@ MonoBehaviour:
     - sfx
     - collision
     - explosion
+    - weapon
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 1e440f401eea9434ba47b509804f7a32, type: 2}

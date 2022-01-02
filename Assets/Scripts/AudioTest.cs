@@ -9,7 +9,7 @@ namespace GTMY.Audio.Scripts
         private void Start()
         {
 #if !UNITY_EDITOR
-PlayerPrefs.DeleteKey(Addressables.kAddressablesRuntimeDataPath);
+//PlayerPrefs.DeleteKey(Addressables.kAddressablesRuntimeDataPath);
 #endif
             var actionMap = new GTMY.AudioTest.TestKeyboard();
             actionMap.Test.Enable();
