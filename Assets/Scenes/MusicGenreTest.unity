@@ -1016,7 +1016,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db4f56b006b1190428d87c6858ff28de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Music: {fileID: 2062096154}
 --- !u!4 &1917536823
 Transform:
   m_ObjectHideFlags: 0
@@ -1093,6 +1092,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2062096155}
   - component: {fileID: 2062096154}
+  - component: {fileID: 2062096156}
   m_Layer: 0
   m_Name: MusicPlayerExplicit
   m_TagString: Untagged
@@ -1134,6 +1134,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2062096156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062096153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d9b5b1b4c4bb6b419aa5b0348eeb6e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _music: {fileID: 2062096154}
+  _musicVolume: 1
 --- !u!1 &2067072046
 GameObject:
   m_ObjectHideFlags: 0

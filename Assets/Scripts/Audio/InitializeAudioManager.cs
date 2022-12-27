@@ -4,16 +4,14 @@ namespace GTMY.Audio.Scripts
 {
     public class InitializeAudioManager : MonoBehaviour
     {
-        [SerializeField]
-        private MusicPlayerExplicit Music;
-
-        private async System.Threading.Tasks.Task Awake()
+        private void Awake()
         {
             // Keep this instance alive
             DontDestroyOnLoad(this.gameObject);
+            AudioManagerSingleton.Instance.MasterVolume = 0.8f;
 
-            await UnityEngine.AddressableAssets.Addressables.Initialize().Task;
-            AudioManagerSingleton.Instance.SetMusicPlayer(Music);
+            // If using Addressables can load a catalog here. This is obsolete, but still useful at times.
+            UnityEngine.AddressableAssets.Addressables.Initialize();
         }
     }
 }
